@@ -1,6 +1,6 @@
 let input = document.getElementById("input");
 let btns = document.querySelectorAll(".btn");
-let result ="";
+let result = "";
 btns.forEach( btn =>
   btn.addEventListener("click", (e)=>{
     try {
